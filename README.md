@@ -1,27 +1,30 @@
-# MapasAppV3
+Mapas Apps v3
+=============
+- Este proyecto se realizó siguiendo el curso [Angular: De cero a experto](https://www.udemy.com/course/angular-fernando-herrera/# "Angular: De cero a experto") 
+> En este proyecto se usó Angular, Bootstrap
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+En esta página puedes ver un mapa
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen1.png)
+> Pantalla de **full-screen**
 
-## Development server
+En esta otra vista se puede hacer zoom al mapa
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen2.png)
+> Pantalla de **zoom-range**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+En esta vista puedes añadir marcadores de diferentes lugares, estos se agregaran debajo del boton **agregar** con su respectivo color generado dinámicamente, estas ubicaciones se guardarán en un arreglo y a su vez en localstorage, permitiendo que la información se mantenga.
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen3.png)
+> Pantalla de **marcadores**
 
-## Code scaffolding
+En esta vista se envía a un subcomponente el mapa para que se muestre en la parte superior de cada item. Y que el counter es un standalone insertado en esta vista.
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen4.png)
+> Pantalla de **propiedades**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+En esta vista se puede ver el uso e implementación de un standalone
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen5.png)
+> Pantalla de **standalone**
 
-## Build
+Como último punto comentar que el menu era un componente comun y se convirtió a standalone.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src ="https://raw.githubusercontent.com/sgcm14/sgcm14/main/sammy.jpg" width="200">
