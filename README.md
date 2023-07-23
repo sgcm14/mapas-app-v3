@@ -3,27 +3,18 @@ Mapas Apps v3
 - Este proyecto se realizó siguiendo el curso [Angular: De cero a experto](https://www.udemy.com/course/angular-fernando-herrera/# "Angular: De cero a experto") 
 > En este proyecto se usó Angular, Bootstrap
 
-En esta página puedes ver un mapa
-![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen1.png)
-> Pantalla de **full-screen**
+En esta página puedes ver un mapa con la ubicación del usuario.
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v3/main/src/assets/imagen1.PNG)
+> Pantalla de **Mapa**
 
-En esta otra vista se puede hacer zoom al mapa
-![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen2.png)
-> Pantalla de **zoom-range**
+En esta otra vista se ve cuando realizas una búsqueda y si le haces click al botón de cada búsqueda.
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v3/main/src/assets/imagen2.PNG)
+> Pantalla de **Mapa**
 
-En esta vista puedes añadir marcadores de diferentes lugares, estos se agregaran debajo del boton **agregar** con su respectivo color generado dinámicamente, estas ubicaciones se guardarán en un arreglo y a su vez en localstorage, permitiendo que la información se mantenga.
-![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen3.png)
-> Pantalla de **marcadores**
+Al hacer click te lleva al lugar buscado y te muestra el camino a recorrer para llegar a esa ruta.
+![](https://raw.githubusercontent.com/sgcm14/mapas-app-v3/main/src/assets/imagen3.PNG)
+> Pantalla de **Mapa**
 
-En esta vista se envía a un subcomponente el mapa para que se muestre en la parte superior de cada item. Y que el counter es un standalone insertado en esta vista.
-![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen4.png)
-> Pantalla de **propiedades**
-
-En esta vista se puede ver el uso e implementación de un standalone
-![](https://raw.githubusercontent.com/sgcm14/mapas-app-v2/main/doc/imagen5.png)
-> Pantalla de **standalone**
-
-Como último punto comentar que el menu era un componente comun y se convirtió a standalone.
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
 
